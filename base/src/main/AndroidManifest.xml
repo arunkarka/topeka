@@ -53,5 +53,9 @@
             <meta-data android:name="default-url"
                 android:value="https://topeka.instantappsample.com/signin" />
         </activity>
+        <activity android:name="com.google.samples.apps.topeka.screenActivities.ParentDashboardActivity"
+            android:theme="@style/Topeka.SignInActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
     </application>
 </manifest>
